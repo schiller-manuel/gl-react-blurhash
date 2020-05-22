@@ -1,0 +1,16 @@
+{
+    "expo": {
+        "name": "gl-blurhash-example",
+        "slug": "gl-blurhash-example",
+        "platforms": ["ios", "android", "web"],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        }
+    }
+}
