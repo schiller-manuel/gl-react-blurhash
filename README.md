@@ -1,4 +1,4 @@
-# gl-react-blurhash ![](https://img.shields.io/npm/v/gl-react-blurhash.svg)
+# gl-react-blurhash ![](https://img.shields.io/npm/v/gl-react-blurhash.svg) [![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.io/)
 
 Universal [`gl-react`](https://github.com/gre/gl-react) module that implements [BlurHash](https://github.com/woltapp/blurhash) in OpenGL.
 
@@ -20,7 +20,7 @@ First setup [`react-native-unimodules`](https://github.com/unimodules/react-nati
 yarn add gl-react gl-react-native buffer gl-react-blurhash
 ```
 
-### Example
+## Usage
 
 ```js
 import React from 'react';
@@ -35,3 +35,8 @@ export default function App {
     );
 }
 ```
+
+## Example
+
+See [`example`](example) subfolder for a full example.
+This example is also available on [snack.expo.io](https://snack.expo.io/@git/github.com/schiller-manuel/gl-react-blurhash:example@develop).
