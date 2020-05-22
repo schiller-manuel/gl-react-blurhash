@@ -1,0 +1,68 @@
+{
+  "name": "gl-react-blurhash",
+  "version": "1.0.0",
+  "description": "Universal gl-react module that implements BlurHash in OpenGL",
+  "license": "MIT",
+  "author": "Manuel Schiller",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/schiller-manuel/gl-react-blurhash.git"
+  },
+  "homepage": "https://github.com/schiller-manuel/gl-react-blurhash#readme",
+  "bugs": {
+    "url": "https://github.com/schiller-manuel/gl-react-blurhash/issues"
+  },
+  "keywords": [
+    "blurhash",
+    "gl-react"
+  ],
+  "main": "lib/commonjs/index.js",
+  "react-native": "src/index.tsx",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "eslint --ext '.js,.ts,.tsx' .",
+    "build": "bob build",
+    "clean": "del lib"
+  },
+  "dependencies": {
+    "blurhash": "^1.1.3"
+  },
+  "peerDependencies": {
+    "gl-react": "^4.0.1"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.14.3",
+    "@types/gl-react": "^3.15.2",
+    "@types/react": "^16.9.34",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "del-cli": "^3.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "typescript": "^3.9.2"
+  }
+}
