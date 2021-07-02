@@ -2,10 +2,12 @@ import { GLSL } from 'gl-react';
 
 export function getShader(numX: number, numY: number) {
     return GLSL`
+    #version 300 es
     #define M_PI 3.1415926535897932384626433832795
     
     precision highp float;
-    varying vec2 uv;
+    in vec2 uv;
+    out vec4 fragColor;
     uniform vec3 colors[${numX * numY}];
   
     const int numX = ${numX};
@@ -27,7 +29,7 @@ export function getShader(numX: number, numY: number) {
           linear += color * basis;
         }
       }
-      gl_FragColor = vec4(linearTosRGB(linear), 1.0);
+      fragColor = vec4(linearTosRGB(linear), 1.0);
     }
   `;
 }
