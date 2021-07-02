@@ -24,7 +24,7 @@
     "src",
     "lib"
   ],
-  "@react-native-community/bob": {
+  "react-native-builder-bob": {
     "source": "src",
     "output": "lib",
     "targets": [
