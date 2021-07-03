@@ -14,7 +14,7 @@ expo add gl-react gl-react-expo expo-gl buffer gl-react-blurhash
 
 ### React Native
 
-First setup [`react-native-unimodules`](https://github.com/unimodules/react-native-unimodules), then add the following dependencies:
+First setup [`react-native-unimodules`](https://docs.expo.io/bare/installing-unimodules/), then add the following dependencies:
 
 ```sh
 yarn add gl-react gl-react-native buffer gl-react-blurhash
