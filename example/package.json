@@ -13,7 +13,7 @@
     "expo": "^42.0.0",
     "expo-gl": "~10.4.1",
     "gl-react": "^5.0.0",
-    "gl-react-blurhash": "latest",
+    "gl-react-blurhash": "2.0.0",
     "gl-react-expo": "^5.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",

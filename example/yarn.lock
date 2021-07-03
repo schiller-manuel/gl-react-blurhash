@@ -3314,10 +3314,10 @@ gl-format-compiler-error@^1.0.2:
     glsl-shader-name "^1.0.0"
     sprintf-js "^1.0.3"
 
-gl-react-blurhash@latest:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gl-react-blurhash/-/gl-react-blurhash-1.0.0.tgz#9d6332e3d394b35a0746ca439fef65c86dfc0279"
-  integrity sha512-OOd/V54qwBOG250I+/nBZnBJr7CrYYr+L4+R52ayo2ISva1Ytxw0nG/dLxnjF1oObR3cOyguopGIFXKWz4jAlA==
+gl-react-blurhash@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gl-react-blurhash/-/gl-react-blurhash-2.0.0.tgz#035cf5bf9c522bb5af5f1f41a0731a774e2ce207"
+  integrity sha512-NCbBpIJQJnL9X2MDAL9mfsjzANSGAgsvD5SRBdcENk8okDauG6kwl7GdLJXPDAhGRl7ibYWEZmDFs5PPZlGL2A==
   dependencies:
     blurhash "^1.1.3"
 
